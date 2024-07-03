@@ -72,18 +72,17 @@ This show that line players do 17 push ups in two minutes than skilled players a
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-The p-value is 0.0000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a 
-
+The p-value is 0.0000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a diffrence betwwen line and skilled players doing pushups. 
 
 
 ## Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-
- 
-  
   
 Data from the Georgetown College football team,line and 
 pushups in two minutes as they could. 
 
-The boxplot and t-test showed the 
+
+The boxplot shows that skilled players are able to do more pushups than line players are able to. 
+
+The T test illustates that the p-value was 0.000009 which is lower than 0.05 so we reject the null.
