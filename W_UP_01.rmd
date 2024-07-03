@@ -72,7 +72,7 @@ This show that line players do 17 push ups in two minutes than skilled players a
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-The p-value is 0.0000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a diffrence betwwen line and skilled players doing pushups. 
+ The p-value is 0.0000009421, which is less than 0.05, so we reject the null hypothesis and conclude there is a diffrence betwwen line and skilled players doing pushups. 
 
 
 ## Discussion and Conclusion
@@ -85,4 +85,4 @@ pushups in two minutes as they could.
 
 The boxplot shows that skilled players are able to do more pushups than line players are able to. 
 
-The T test illustates that the p-value was 0.000009 which is lower than 0.05 so we reject the null.
+The T test illustates that the p-value was 0.000009 which is lower than 0.05 so we reject the null adn conclude that there is a difference between position and skill. 
